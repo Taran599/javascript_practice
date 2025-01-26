@@ -112,3 +112,9 @@ console.log(!n);
 // u can also convert non boolean value to boolean using !!
 let o = 100;
 console.log(!!o);
+
+
+//Ternary Operator
+let age=20;
+let msg = age>=18 ? 'You are eligible for vote' :'You are not eligible for vote'
+console.log(msg);
