@@ -56,5 +56,59 @@ console.log(typeof 'Hello')
 console.log(typeof true)
 console.log(typeof undefined)
 console.log(typeof null)
+console.log()
 
 //Comparison Operator
+
+let comp1=20;
+let comp2=30;
+console.log("COMPARISON OPERATOR");
+console.log(`${comp1} is greater than ${comp2} : ${comp1>comp2}`)
+console.log(`${comp1} is less than ${comp2} : ${comp1<comp2}`)
+console.log(`${comp1} is greater than or equal to ${comp2} : ${comp1>=comp2}`)
+console.log(`${comp1} is less than or equal to ${comp2} : ${comp1<=comp2}`)
+
+//Comparison with string.
+console.log('2'>'01') //2 > 1 = true
+console.log('100'< 50 ) //100 < 50 = false
+console.log(true>5)//1>5 = false
+console.log(20=='20');//ans=true it will first convert string to number than returns output.
+console.log(20==='20');//ans= false it follows strict rules string and number is not equal.
+console.log(20!='10');//same with the case != and !==
+
+console.log('A'<'Z')// 65 < 90 ASCII value is seen there
+console.log('a'<'A')//97 < 65 = false
+console.log('Grass' > 'Green') //97>101 = false
+// in this case first G is check with another string if its ame then it moves too next one and compare the values.
+console.log('Too'>'To')
+// in this case length of the characters is check if both of string have same ascii no.
+//console.log(null===undefined)
+console.log();
+
+console.log("LOGICAL OPERATORS")
+let t = true;
+let u = false;
+let f = true;
+//OR - || it always return first true value of the expression.
+console.log(t || u);
+
+//console.log(false||false||false)
+
+
+//Truthy and Falsy value
+//False values are : false,undefined,null,empty string(''),NaN,0
+//any other values rather than these 6 falsy values are truthy values.
+
+//AND - && and operator will returns first falsy value from an expression.
+//if there is not any falsy value then it will return last value from the expression.
+console.log(true&&true)
+console.log(true&&false)
+
+//NOT - ! 
+//it will reverse the value, if true then it reverse and returns false and vice versa.
+let n=true;
+console.log(!n)
+
+// u can also convert non boolean value to boolean using !!
+let o = 100;
+console.log(!!o)
