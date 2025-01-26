@@ -56,3 +56,5 @@ console.log(typeof 'Hello')
 console.log(typeof true)
 console.log(typeof undefined)
 console.log(typeof null)
+
+//Comparison Operator
