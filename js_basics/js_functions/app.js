@@ -32,3 +32,16 @@ function allowVoting(age){
     console.log("Please cast your vote!")
 }
 allowVoting(20);
+
+//FUNCTION DECLARATION
+// function greetings(){
+//     console.log('Hello! Good Morning User')
+// }
+
+//FUNCTION EXPRESSION
+const greet = function(name,timeOfDay){
+    const msg = `Good ${timeOfDay} ${name}.Welcome Back!`
+    console.log(msg);
+};
+const x = greet;
+console.log('tuffy','morning');
