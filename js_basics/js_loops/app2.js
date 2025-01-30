@@ -29,3 +29,22 @@ for (let a = 0;a < user.length;a++){
 }
 
 //Break and Continue
+
+//BREAK
+// let y =1;
+
+// while(y<=10){
+//     if(y==5){
+//         break; break out of loop explicitly.
+//     }
+//     console.log('Value of y is:' +y);
+//     y++;
+// }
+
+//CONTINUE
+for (let i =0;i<10;i++){
+    if(i%2===0){
+    continue;//used to skip any statement.
+    }
+    console.log(i)
+}
